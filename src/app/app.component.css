@@ -1,0 +1,40 @@
+
+.container{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contribuintes-container{
+  width: 80vw;
+  height: 90vh;
+  display: flex;
+  padding: 16px 24px;
+  background-color: #FF6565;border-radius: 6px;
+  flex-direction: column;}
+
+
+  .button {
+    background-color: #196CE9; /* Green */
+    border: none;
+    height: 50px;
+    color: white;
+    padding: 15px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;border-radius: 6px;
+
+
+  }
+
+  h1{
+    color: white;
+    padding: 15px 12px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+
+}
