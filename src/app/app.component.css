@@ -74,22 +74,26 @@ background-color: blanchedalmond;
 }
 
   .salvar{
-    background-color: white;
-    border-radius: 6px;
     font-size: 11px;
-
-
-
+    float: right;
   }
 
   .editar{
-    background-color: white;
-    border-radius: 6px;
-    font-size: 11px;
+
+        font-size: 11px;
+    float: right;
 
   }
   .excluir{
-    background-color: white;
-    border-radius: 6px;
     font-size: 11px;
+    float: right;
    }
+
+   .salvar-general{
+    font-size: 15px;
+ display:inline-block;
+ justify-content: center;
+ align-items: center;
+
+
+  }
