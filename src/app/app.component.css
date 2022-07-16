@@ -31,8 +31,12 @@
     border: none;
     height: 35px;
     width: max-content;
-    color: white;
+
+    color: rgb(0, 0, 0);
+    font-style:normal;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 12px 11px;
+
     text-align:center;
     text-decoration: none;
     display: inline-block;
