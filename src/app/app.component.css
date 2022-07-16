@@ -63,19 +63,28 @@
   border-radius: 3px;
 font-size:15px ;
 display:flexbox;
-justify-content:space-between;
-align-items: center;
+justify-content:flex-end;
+align-items:flex-end;
+background-color: blanchedalmond;
 }
 
-  .btn btn-default ml-2{
+  .salvar{
     background-color: white;
     border-radius: 6px;
-    font-size: 1px;
+    font-size: 11px;
+
+
+
   }
 
-  .btn btn-primary{
+  .editar{
     background-color: white;
     border-radius: 6px;
-    font-size: 10px;
+    font-size: 11px;
 
   }
+  .excluir{
+    background-color: white;
+    border-radius: 6px;
+    font-size: 11px;
+   }
