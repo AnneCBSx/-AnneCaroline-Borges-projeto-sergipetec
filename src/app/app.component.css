@@ -26,7 +26,7 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    }
 
-  .button {
+  .button{
     background-color: #FF6565; /* Green */
     border: none;
     height: 35px;
@@ -66,7 +66,7 @@ align-items: center;
   .btn btn-default ml-2{
     background-color: white;
     border-radius: 6px;
-    font-size: 10px;
+    font-size: 1px;
   }
 
   .btn btn-primary{
