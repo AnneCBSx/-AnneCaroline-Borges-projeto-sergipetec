@@ -7,34 +7,61 @@
   justify-content: center;
 }
 
+
 .contribuintes-container{
   width: 80vw;
   height: 90vh;
   display: flex;
   padding: 16px 24px;
-  background-color: #FF6565;border-radius: 6px;
+  background-color: #196ce9;border-radius: 6px;
   flex-direction: column;}
 
 
-  .button {
-    background-color: #196CE9; /* Green */
-    border: none;
-    height: 50px;
+  h1{
     color: white;
-    padding: 15px 12px;
+    padding: 10px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   }
+
+  .button {
+    background-color: #FF6565; /* Green */
+    border: none;
+    height: 30px;
+    width: max-content;
+    color: white;
+    padding: 12px 11px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;border-radius: 6px;
+    font-size: 16px;border-radius: 4px;
 
 
   }
 
-  h1{
-    color: white;
-    padding: 15px 12px;
-    text-align: center;
-    display: inline-block;
-    font-size: 20px;
+  .form-contribuinte  {
+    background-color: white;
+    border: none;
+    height: 25px;
+    width: 100%;
+    color: rgb(0, 0, 0);
 
-}
+    text-align:left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;border-radius: 6px;
+
+  }
+
+  .button-editar{
+    background-color: white;
+    border-radius: 6px;
+  }
+
+  .button-excluir{
+    background-color: white;
+    border-radius: 6px;
+
+  }
