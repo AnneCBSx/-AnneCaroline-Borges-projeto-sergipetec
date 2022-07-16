@@ -33,7 +33,7 @@
     background-color: #FF6565; /* Green */
     border: none;
     height: 35px;
-    width: max-content;
+
 
     color: rgb(0, 0, 0);
     font-style:normal;
@@ -43,7 +43,7 @@
     text-align:center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;border-radius: 2px;
+    border-radius: 2px;
 
 
   }
