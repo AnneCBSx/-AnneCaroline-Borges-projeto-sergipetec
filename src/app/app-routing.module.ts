@@ -1,9 +1,10 @@
-import { TelaInicialComponent } from './tela-inicial/tela-inicial.component';
+
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { AppComponent } from './app.component';
 
 const routes: Routes = [
-  {path:'tela-inicial', component:TelaInicialComponent },
+  {path:'app', component:AppComponent },
 ];
 
 @NgModule({
