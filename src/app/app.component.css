@@ -29,15 +29,16 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    }
 
-  .button{
-    background-color: #FF6565; /* Green */
+  .button-contribuinte{
+    background-color: #f57676; /* Green */
     border: none;
     height: 35px;
+    cursor: pointer;
 
 
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-style:normal;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     padding: -12px -11px;
 
     text-align:center;
@@ -48,52 +49,36 @@
 
   }
 
-  .form-contribuinte  {
-    background-color: white;
-    border: none;
-    height: 25px;
-    width: 100%;
-    color: rgb(0, 0, 0);
+  .contribuinte  {
+
+    height: 12px;
+    width: 85%;
+    color: rgb(242, 235, 235);
     padding:10px;
 
     text-align:left;
     text-decoration: none;
     display: inline-block;
-    font-size: 14px;border-radius: 6px;
+    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 6px;
 
   }
 
-.form-control{
-  border-radius: 3px;
-font-size:15px ;
-display:flexbox;
-justify-content:flex-end;
-align-items:flex-end;
-background-color: blanchedalmond;
-
-}
-
-  .salvar{
-    font-size: 11px;
-    float: right;
-  }
 
   .editar{
 
         font-size: 11px;
-    float: right;
+        display: inline-block;
 
   }
   .excluir{
     font-size: 11px;
-    float: right;
+    display: inline-block;
    }
 
-   .salvar-general{
-    font-size: 15px;
- display:inline-block;
- justify-content: center;
- align-items: center;
+   ul{
 
-
+    border-radius: 6px;
+    background-color: rgba(131, 182, 253, 0.825);
   }
