@@ -19,6 +19,7 @@
   flex-direction: column;
    position: fixed;
    box-shadow: 0 0 0.5em black;
+   align-items: stretch;
 
    }
 
@@ -39,21 +40,34 @@
     cursor: pointer;
     display: flex;
     justify-content: center;
-    align-items: center;
+  
 
 
     color: rgb(255, 255, 255);
     font-style:normal;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    padding: -12px -11px;
+
 
     text-align:center;
     text-decoration: none;
     display: inline-block;
-    border-radius: 6px;
+    border-radius: 3px;
 
 
   }
+
+  #pesquisa{ background-color: #fefefe; /* Green */
+
+    height: 35px;
+    cursor: pointer;
+    display: inline-block;
+    justify-content:flex-end;
+    flex-direction: row;
+    border-radius: 3px;
+    box-shadow: 0 0 0.5em black;
+
+  }
+
 
   .contribuinte  {
 
@@ -76,11 +90,16 @@
 
         font-size: 11px;
         display: inline-block;
+        justify-content: flex-start;
+        align-items: center;
 
   }
   .excluir{
     font-size: 11px;
     display: inline-block;
+    justify-content: flex-start;
+
+
    }
 
    ul{
