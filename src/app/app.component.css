@@ -35,12 +35,14 @@
 
   .button-contribuinte{
     background-color: #f57676; /* Green */
+    box-shadow: 0 0 0.5em black;
     border: none;
-    height: 35px;
+    height: 40px;
+    width: 35%;
     cursor: pointer;
     display: flex;
     justify-content: center;
-  
+
 
 
     color: rgb(255, 255, 255);
@@ -57,14 +59,25 @@
   }
 
   #pesquisa{ background-color: #fefefe; /* Green */
-
+    width: 50%;
     height: 35px;
     cursor: pointer;
     display: inline-block;
-    justify-content:flex-end;
-    flex-direction: row;
+
     border-radius: 3px;
     box-shadow: 0 0 0.5em black;
+
+  }
+  contribuinte-pesquisa{
+    display: flex;
+    justify-content: space-between;
+
+
+  }
+  .button-pesquisar{
+    font-size: 15px;
+    width:50px ;
+    height: 30px;
 
   }
 

@@ -6,16 +6,19 @@
 
 <!-- Fazer modal   no button de contribuintes-->
 
-<div>
+<div id="contribuinte-pesquisa">
   <button type="button" class="button-contribuinte">Novo Contribuinte
   </button>
-  <input id="pesquisa">
+
+  <input type="text" id="pesquisa" [(ngModel)]="nome">
+  <button type="button" class="button-pesquisar" (click)="onClick()">IR
+  </button>
 </div>
 
 
 
 <div class="lista-contribuintes">
-    <ul class="contribuinte">Contribuinte 1</ul>
+    <ul class="contribuinte">MARIA CRISTINA PEREIRA</ul>
     <button type="button" class="editar">Editar</button>
     <button type="button" class="Excluir"> Excluir</button>
   </div>
