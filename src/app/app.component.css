@@ -8,10 +8,6 @@
   position: fixed;
 }
 
-hr{ color: black;
-
-}
-
 .contribuintes-container{
   width: 80vw;
   height: 90vh;
@@ -25,22 +21,31 @@ hr{ color: black;
    align-items: stretch;
 
    }
+.adm-users{
+  display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+
+
+}
 
 
   h1{
-    color: rgb(64, 60, 111);
+    color: rgb(129, 124, 184);
     padding: 5px 5px;
     display: flex;
-    font-size: 30px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 600;
    }
 
   .button-contribuinte{
     background-color: #f57676; /* Green */
     box-shadow: 0 0 0.5em black;
     border: none;
-    height: 40px;
-    width: 35%;
+    height: 30px;
+    width: 25%;
     cursor: pointer;
     display: flex;
     justify-content: flex-end;
@@ -50,7 +55,7 @@ hr{ color: black;
 
     color: rgb(255, 255, 255);
     font-style:normal;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: sans-serif;
 
 
     text-align:center;
@@ -60,15 +65,21 @@ hr{ color: black;
 
 
   }
+.form-group{
+  display: flex;
+  justify-content: center;
+  align-items: row;
+  padding: 6px 6px;
 
-  #pesquisa{ background-color: #fefefe; /* Green */
+}
+
+  .form-control{ background-color: #fefefe; /* Green */
     width: 50%;
     height: 35px;
     cursor: pointer;
-    display: inline-block;
+
 
     border-radius: 3px;
-    box-shadow: 0 0 0.5em black;
 
   }
   contribuinte-pesquisa{
@@ -94,29 +105,37 @@ hr{ color: black;
 
     text-align:left;
     text-decoration: none;
-    display: inline-block;
+
     font-size: 18px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     border-radius: 6px;
 
   }
 
-
-  .editar{
-
-        font-size: 11px;
-        display: inline-block;
-        justify-content: flex-start;
-        align-items: center;
+  .info{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: row;
+    padding: 8px 5px;
 
   }
-  .excluir{
-    font-size: 11px;
-    display: inline-block;
-    justify-content: flex-start;
+label{
+  display: flex;
+ color:rgb(149, 148, 148) ;
+ padding: 5px 5px;
+}
 
 
-   }
+.edit-button{
+
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+
 
    ul{
 

@@ -2,22 +2,38 @@
 
 <div class="container">
   <div class="contribuintes-container">
-<h1>Admnistrador de Contribuintes</h1>
+
 
 <!-- Fazer modal   no button de contribuintes-->
 
 <div id="contribuinte-pesquisa">
+  <div class="adm-users">
+    <h1>Admnistrador de Contribuintes</h1>
   <button type="button" class="button-contribuinte">Adicionar +
   </button>
+  </div>
 
-  <input type="text" id="pesquisa" [(ngModel)]="nome">
+  <div class="form-group">
+    <label></label>
+    <input type="text" class="form-control" placeholder="Pesquisar">
 
-  <button type="button" class="btn btn-primary">IR </button>
+    <button type="submit" class="btn btn-primary"> Ir </button>
+
+
 </div>
 
 
 
 <div class="lista-contribuintes">
+  <div class="info">
+    <label>Nome</label>
+    <label>CPF</label>
+  <label>Telefone</label>
+
+</div>
+
+
+  <div class="edit-button">
     <ul class="contribuinte">MARIA CRISTINA PEREIRA</ul>
     <button type="button" class="editar">Editar</button>
     <button type="button" class="Excluir"> Excluir</button>

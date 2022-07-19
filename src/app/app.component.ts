@@ -15,12 +15,12 @@ export class AppComponent {
 
    onClick() {
 console.log(this.nome);
-  } openDialog(enterAnimationDuration: string, exitAnimationDuration: string): void {
+  /* } openDialog(enterAnimationDuration: string, exitAnimationDuration: string): void {
     this.dialog.open(DialogAnimationsExampleDialog, {
       width: '250px',
       enterAnimationDuration,
       exitAnimationDuration,
-    });
+    }); */
   }
 
 }
