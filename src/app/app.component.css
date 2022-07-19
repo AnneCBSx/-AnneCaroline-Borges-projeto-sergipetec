@@ -32,7 +32,7 @@
 
 
   h1{
-    color: rgb(129, 124, 184);
+    color: rgb(222, 104, 104);
     padding: 5px 5px;
     display: flex;
     font-size: 20px;
@@ -96,20 +96,10 @@
   }
 
 
-  .contribuinte  {
 
-    height: 10px;
-    width: 85%;
-    color: rgb(242, 235, 235);
-    padding:10px;
 
-    text-align:left;
-    text-decoration: none;
-
-    font-size: 18px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    border-radius: 6px;
-
+  .input {
+    width: 300px;
   }
 
   .info{
@@ -127,13 +117,7 @@ label{
 }
 
 
-.edit-button{
 
-  font-size: 11px;
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-}
 
 
 

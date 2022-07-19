@@ -1,0 +1,30 @@
+.contribuinte  {
+
+  height: 10px;
+  width: 85%;
+  color: rgb(242, 235, 235);
+  padding:10px;
+
+  text-align:left;
+  text-decoration: none;
+
+  font-size: 18px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 6px;
+
+}
+
+.edit-button{
+
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+#buttons-container{
+  display: flex;
+  flex-direction: column;
+justify-content: space-around;
+height: 70px;
+}
