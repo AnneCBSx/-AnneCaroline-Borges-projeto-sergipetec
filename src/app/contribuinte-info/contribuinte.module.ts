@@ -1,7 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ContribuinteComponent } from './contribuinte.component';
+import { ContribuinteComponent } from '../contribuinte/contribuinte.component';
 import { MatDialogModule } from '@angular/material/dialog';
+import { ContribuinteInfoModule } from './contribuinte-info.module';
 
 
 
@@ -10,7 +11,8 @@ import { MatDialogModule } from '@angular/material/dialog';
   ],
   imports: [
     MatDialogModule,
-    CommonModule
+    CommonModule,
+    ContribuinteInfoModule
   ]
 })
 export class ContribuinteModule { }

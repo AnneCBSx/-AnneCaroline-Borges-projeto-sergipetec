@@ -7,12 +7,17 @@ import { FormsModule } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
 import {MatDialogModule} from '@angular/material/dialog';
 import { ContribuinteComponent } from './contribuinte/contribuinte.component';
+import{ ContribuinteInfoModule} from'./contribuinte-info/contribuinte-info.module';
+
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    ContribuinteComponent,  ],
+    ContribuinteComponent,
+   ],
+
+
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -20,6 +25,7 @@ import { ContribuinteComponent } from './contribuinte/contribuinte.component';
     MatDialogModule,
     BrowserModule,
     ReactiveFormsModule,
+    ContribuinteInfoModule,
 
 
   ],

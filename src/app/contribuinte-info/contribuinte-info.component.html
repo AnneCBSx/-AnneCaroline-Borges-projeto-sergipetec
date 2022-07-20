@@ -1,23 +1,35 @@
-
-<div class="modal">
-  Lorem ipsum dolor sit amet,
-  consectetur adipisicing elit.
-  Aliquam, sunt.
-</div>
-
-<div class="overlay"></div>
-<ng-container *ngIf="mostrar">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
   <div class="modal">
-    <!--
-         No lugar do texto "Lorem ipsum..."
-         adicionamos o código abaixo para
-         que o usuário do componente possa
-         passar o conteúdo para dentro do
-         modal, por exemplo:
-         <app-modal>meu conteudo</app-modal>
-     -->
-    <ng-content></ng-content>
+    Lorem ipsum dolor sit amet,
+    consectetur adipisicing elit.
+    Aliquam, sunt.
   </div>
-  <div (click)="toggle()"
-       class="overlay"></div>
-</ng-container>
+
+  <div class="overlay"></div>
+  <ng-container *ngIf="mostrar">
+    <div class="modal">
+      <!--
+           No lugar do texto "Lorem ipsum..."
+           adicionamos o código abaixo para
+           que o usuário do componente possa
+           passar o conteúdo para dentro do
+           modal, por exemplo:
+           <app-modal>meu conteudo</app-modal>
+       -->
+      <ng-content></ng-content>
+    </div>
+    <div (click)="toggle()"
+         class="overlay"></div>
+  </ng-container>
+
+
+</body>
+</html>
