@@ -2,7 +2,7 @@
 
 - Processo seletivo da vaga de Desenvolvedor Front-End jr.
 
-✅ Angular+ com método CRUD
+✅ Angular2+ com método CRUD
 
 
 ✅Esse projeto foi feito com:
