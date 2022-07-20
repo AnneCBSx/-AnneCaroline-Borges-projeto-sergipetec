@@ -11,9 +11,6 @@
 - Framework Css: [BootStrap](https://getbootstrap.com/)
 
 
-<div >
-   <img align="center" alt="adm.png" height="200"  ;    src="https://github.com/AnneCBSx/AnneCaroline-Borges-projeto-sergipetec/blob/master/src/assets/adm.png">
-    
 </div>
-<div> <img align="center" alt="adm-contribuinte.png" height="200"  ;    src="https://github.com/AnneCBSx/AnneCaroline-Borges-projeto-sergipetec/blob/master/src/assets/Adm%20contribuintes.jpg">
+<div> <img align="center" alt="adm-contribuinte.png" height="200"  ;    src="https://github.com/AnneCBSx/AnneCaroline-Borges-projeto-sergipetec/blob/master/src/assets/Adm%20contribuintes.png">
   </div>
