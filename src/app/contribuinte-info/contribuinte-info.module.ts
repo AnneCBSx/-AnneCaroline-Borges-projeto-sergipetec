@@ -5,13 +5,17 @@ import { ContribuinteInfoComponent } from './contribuinte-info.component';
 
 
 @NgModule({
-  declarations: [ ContribuinteInfoComponent,
-
+  declarations: [
+    ContribuinteInfoComponent,
   ],
   imports: [
-    CommonModule
+    CommonModule,
   ],
-  exports: [ ContribuinteInfoComponent,
-  ],
+  exports: [
+    ContribuinteInfoComponent,
+  ]
+
+
+
 })
 export class ContribuinteInfoModule { }

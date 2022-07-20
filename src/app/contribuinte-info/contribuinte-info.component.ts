@@ -8,16 +8,18 @@ import { MatDialogRef } from '@angular/material/dialog';
   changeDetection: ChangeDetectionStrategy.OnPush
 
 
-  
+
 })
 export class ContribuinteInfoComponent implements OnInit {
 
   constructor(
     ) { }
-    mostrar: boolean = false;
+    mostrar: boolean = true;
 
   toggle () {
     this.mostrar = !this.mostrar;
+    console.log(this.mostrar)
+
   }
 
   ngOnInit(): void {

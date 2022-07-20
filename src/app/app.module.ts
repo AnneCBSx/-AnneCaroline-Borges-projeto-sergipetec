@@ -12,10 +12,8 @@ import{ ContribuinteInfoModule} from'./contribuinte-info/contribuinte-info.modul
 
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    ContribuinteComponent,
-   ],
+  declarations:  [ AppComponent ],
+  bootstrap: [AppComponent],
 
 
   imports: [
@@ -29,9 +27,6 @@ import{ ContribuinteInfoModule} from'./contribuinte-info/contribuinte-info.modul
 
 
   ],
-  providers: [],
-  bootstrap: [AppComponent],
-  exports: [
-  ]
+  
 })
 export class AppModule { }

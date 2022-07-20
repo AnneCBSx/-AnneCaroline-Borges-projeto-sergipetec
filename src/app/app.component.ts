@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import { FormGroup, FormControl } from '@angular/forms';
 import { MatDialog } from '@angular/material/dialog';
+import { ContribuinteComponent } from './contribuinte/contribuinte.component';
+import{ ContribuinteInfoModule} from'./contribuinte-info/contribuinte-info.module';
 
 @Component({
   selector: 'app-root',
@@ -16,5 +18,5 @@ export class AppComponent {
    onClick() {
 console.log(this.nome);
   }
-
+  acaoPrimaria(){}
 }
