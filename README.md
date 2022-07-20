@@ -12,8 +12,8 @@
 
 
 <div >
-   <img align="center" alt="adm.png" height="130"  ;    src="https://ibb.co/0cvpBS4">
+   <img align="center" alt="adm.png" height="200"  ;    src="https://github.com/AnneCBSx/AnneCaroline-Borges-projeto-sergipetec/blob/master/src/assets/adm.png">
     
 </div>
-<div> <img align="center" alt="adm-contribuinte.png" height="130"  ;    src="https://ibb.co/2NJCcYQ">
+<div> <img align="center" alt="adm-contribuinte.png" height="200"  ;    src="https://github.com/AnneCBSx/AnneCaroline-Borges-projeto-sergipetec/blob/master/src/assets/Adm%20contribuintes.jpg">
   </div>
