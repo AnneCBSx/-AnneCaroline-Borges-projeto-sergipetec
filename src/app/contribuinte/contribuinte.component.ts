@@ -1,4 +1,6 @@
-import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
+import { ChangeDetectionStrategy, Component, Input, OnInit } from '@angular/core';
+import { MatDialog } from '@angular/material/dialog';
+import { ContribuinteInfoComponent } from '../contribuinte-info/contribuinte-info.component';
 
 @Component({
   selector: 'app-contribuinte',
@@ -8,8 +10,8 @@ import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
 })
 export class ContribuinteComponent implements OnInit {
 
-  constructor() { }
-
+  constructor( ) { }
+  @Input() nome : string='';
   ngOnInit(): void {
   }
 

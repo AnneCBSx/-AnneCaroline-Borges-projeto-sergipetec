@@ -26,7 +26,6 @@ import { ContribuinteComponent } from './contribuinte/contribuinte.component';
   providers: [],
   bootstrap: [AppComponent],
   exports: [
-    ContribuinteComponent
   ]
 })
 export class AppModule { }
