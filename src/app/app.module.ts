@@ -6,8 +6,7 @@ import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
 import {MatDialogModule} from '@angular/material/dialog';
-import { ContribuinteComponent } from './contribuinte/contribuinte.component';
-import{ ContribuinteInfoModule} from'./contribuinte-info/contribuinte-info.module';
+
 
 
 
@@ -23,10 +22,9 @@ import{ ContribuinteInfoModule} from'./contribuinte-info/contribuinte-info.modul
     MatDialogModule,
     BrowserModule,
     ReactiveFormsModule,
-    ContribuinteInfoModule,
 
 
   ],
-  
+
 })
 export class AppModule { }

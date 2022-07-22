@@ -16,31 +16,7 @@
     Mostrar modal
   </button> -->
 
-  <app-contribuinte-info #modal>
 
-    <h1>Lorem, ipsum dolor.</h1>
-    <p>
-      Lorem ipsum, dolor sit amet
-      consectetur adipisicing elit.
-      Earum dicta non alias distinctio,
-      aliquid aperiam ipsum provident
-      quae nihil voluptatibus veniam
-      fuga similique facilis consequatur
-      reiciendis recusandae. Velit magni
-      distinctio corporis eaque ad itaque
-      ex impedit accusamus. Debitis pariatur
-      cum quam rerum reprehenderit quod
-      iure, in explicabo facere vero nemo?
-    </p>
-
-
-    <button
-      (click)="acaoPrimaria(); modal.toggle();"
-      class="btn-primario">Ação</button>
-
-    <button
-      class="btn-secundario">Ação 2</button>
-  </app-contribuinte-info>
 
   <div id="form-group">
 
@@ -56,21 +32,26 @@
 
   </div>
 
-
-
-
-
-
-
-
-
-<!--
-<div class="lista-contribuintes">
-  <div class="info">
-
+  <div class="info-name-cpf">
+    <div> <label>Nome</label>
+   </div>
+   <div>
+    <label>CPF</label>
+  </div>
 </div>
+<div class="contribuintes">
+  <div class="lista-contribuintes">
+    <div class="info">
+  </div>
+  
+  </div>
 
-  <app-contribuinte nome="Marcelo">
 
-  </app-contribuinte>
- -->
+
+
+  <div>
+    <div id="buttons-container">
+    <button type="button" class="editar">Editar</button>
+
+    <button type="button" class="Excluir"> Excluir</button>
+  </div>
